@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+body {
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #175015;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body::before {
+    content: "";
+    width: 550px;
+    height: 740px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/image 3.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    margin-bottom: 310px;
+}
+
+.header h1 {
+
+    color: #FFF;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-1 {
+    color: #FFF;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 34px;
+}
+
+.link-2 {
+    color: #FFF;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-tittle {
+    transform: rotate(-0.218deg);
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    width: 669px;
+    height: 109px;
+    font-family: poppins;
+    transform: rotate(-0.218deg);
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.hero-link {
+    font-family: poppins;
+    padding: 17px 107px;
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #FFF;
+    color: #175015;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
